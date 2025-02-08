@@ -22,6 +22,13 @@
    ```bash
    pip install -r requirements.txt
    ```
+4.构建windows平台的可执行文件：（可选）
+   ```bash
+   # 安装打包工具
+   pip install pyinstaller
+   # 将GUI应用打包为单个exe可执行文件
+   pyinstaller -F -w OptimizedMain.py
+   ```
 
 ## 使用方法
 
